@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* fonts */
+
+@font-face {
+    font-family: RedHat-bold;
+    src: url(fonts/Gelion\ Bold.ttf);
+}
+body
+{
+    background-color: whitesmoke;
+
+}
+
+
+
+
+
+
+
+
+/* section1 */
+
+/*                   nav                                    */
+.header{
+    width: 80%;
+    margin: auto;
+}
+nav{
+    display: flex;
+   
+    padding-block: 50px;
+    justify-content: space-between;
+
+}
+nav div
+{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 40%;
+    text-align: center;
+}
+nav p{
+    color: #035755;
+    font-size: 19px;
+    font-family: RedHat-bold;
+padding-top: 15px;
+
+}
+nav img{
+    padding-right: 15px;
+}
+nav ul 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    padding-top: 15px;
+    
+
+}
+nav ul  .head
+{
+    color: #FF383D;
+}
+nav ul li{
+    color: #035755;
+    font-size: 18px;
+    text-shadow:25%;
+}
+
+nav button
+{
+    padding: 10px 20px;
+    width: 13%;
+    text-align: center;
+    border-radius: 46px;
+    border-color: #FF383D;
+    border: 2px solid;
+    color: #FF383D;
+    background-color: transparent;
+}
+
+.content
+{
+    padding-block: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.content img 
+{
+    width: 50%;
+}
+.header .content .containeer span{
+    color: #FF383D;
+    font-family: RedHat-bold;
+    font-size: 32px;
+}
+.header .content .containeer h1{
+    color: #035755;
+    font-family: RedHat-bold;
+    font-size: 52px;
+}
+.header .content .containeer p
+{
+    font-size: 24px;
+    padding-block: 20px;
+}
+.header .content .containeer button
+{
+    border-radius: 65px;
+color: white;
+background-color:#FF383D ;
+    font-size: 24px;
+    border: none;
+padding: 10px 20px;
+}
+
+/* section2 */
+.card2
+{
+   
+    width: 80%;
+    margin: auto;
+}
+.card2 .content 
+{
+   
+display:flex;
+justify-content: space-between;
+}
+
+.card2 .card-body
+{
+    padding-top: 35px;
+    width: 35%;
+}
+.pr{
+    color: #FA5652;
+    font-size: 29px;
+    padding-top: 40px;
+
+    font-family: RedHat-bold;
+
+}
+.tk {
+    color: #035755;
+    font-size: 50px;
+    font-family: RedHat-bold;
+
+}
+
+.card2 .content .card-body button {
+    color: #ff383f;
+    font-size: 20px;
+border-radius: 65px;
+border: none;
+padding: 10px 20px;
+background-color:#FA565226 ;
+margin-top: 30px;
+}
+
+.main-cards
+{
+    padding-block: 50px;
+    margin: auto;
+    width: 35%;
+    text-align: center;
+}
+/* three-cards */
+
+
+.three-cards
+{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+.card
+{
+    padding: 20px;
+    border: none;
+}
+.te{
+    color: #035755;
+    font-size: 36px;
+    font-family: RedHat-bold;
+}
+
+.twobytwo{
+    width: 80%;
+    margin: auto;
+
+
+}
+.twobytwo .cards{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 50px;
+
+}
+ .twobytwo .cards img{
+    width: 40%;
+padding-right: 40px;
+}
+/* .twobytwo .cards .card-body
+{
+    width: 40%;
+} */
+.twobytwo .cards .card-body 
+{
+    display: flex;
+    height: auto;
+} 
+
+.twobytwo .cards .card-body .number
+{
+    color: #FA5652;
+    background-color: #fa55524c ;
+    border-radius: 55px;
+    width: auto;
+    height: 100px;
+    padding: 20px;
+    font-size: 44px;
+    font-family: RedHat-bold;
+    margin-right: 20px;
+    text-align: center;
+} 
+.cd{
+    width: 70%;
+}
+
+.mask{
+    color: #035755;
+    font-size: 47px;
+    font-family: RedHat-bold;
+}
+
+
+.question p {
+    color: #0C6C44;
+    font-size: 64px;
+    font-family: RedHat-bold;
+   
+
+}
+.question
+{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.question form{
+    display: flex;
+    padding-top: 15px;
+}
+
+.question form button{
+    border-radius: 57px;
+background-color: #F44A45;
+color: white;
+border: none;
+width: 25%;
+padding: 15px 10px;
+font-size: 22px;
+}
+
+.question form input{
+    border: none;
+    border-radius: 57px;
+    padding: 15px 30px;
+width: 75%;
+}
+
+
+footer nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+footer  nav ul li{
+padding-inline: 15px;
+}
+footer nav .container-fluid .collapse
+{
+    padding-left: 45px;
+}
+footer nav .container-fluid img{
+    padding-right: 45px;
+}
+
+
+
+
+
+
+
+
